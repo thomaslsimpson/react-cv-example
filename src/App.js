@@ -6,7 +6,14 @@ import CVContainer from './CVContainer.js';
 
 function App() {
   return (
-    <CVContainer />
+    <div>
+      <CVContainer title='Header'>
+        <CVContainer title='Contact' />
+        <CVContainer title='About' />
+      </CVContainer>
+      <CVContainer title='Paths'   />
+      <CVContainer title='Timeline'/>
+    </div>
   );
 }
 
